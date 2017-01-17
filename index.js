@@ -1,3 +1,4 @@
+// run code to locally host image //
 
 var express = require('express'),
     app = express();
