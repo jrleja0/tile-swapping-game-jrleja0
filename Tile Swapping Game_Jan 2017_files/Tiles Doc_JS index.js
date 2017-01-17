@@ -4,7 +4,7 @@
 const GAME = document.getElementById('game')
 const START = document.getElementById('start')
 
-/*
+/*  old code used to locally host image.
 var covGarImage = new Image
 var covGar1 = document.createElement("canvas")
 covGar1.style.visibility = "hidden"
