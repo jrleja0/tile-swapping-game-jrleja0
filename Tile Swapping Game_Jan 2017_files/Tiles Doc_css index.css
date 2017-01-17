@@ -1,0 +1,212 @@
+
+#game {
+  background-color: #111;
+  height: 510.3333px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 510.3333px;
+}
+
+#start {
+  color: white;
+  font-size: 8rem;
+  position: relative;
+  text-decoration: none;
+  top: 5rem;
+}
+
+#tileCanvas1 {
+  display: none;
+  position: absolute;
+  width: 127.5834px;
+  height: 127.5834px;
+  left: 0px;
+  top: 0px;
+}
+
+#tileCanvas2 {
+  display: none;
+  position: absolute;
+  width: 127.5834px;
+  height: 127.5834px;
+  left: 127.5834px;
+  top: 0px;
+
+}
+
+#tileCanvas3 {
+  display: none;
+  position: absolute;
+  width: 127.5834px;
+  height: 127.5834px;
+  left: 255.1668px;
+  top: 0px;
+}
+
+#tileCanvas4 {
+  display: none;
+  position: absolute;
+  width: 127.5834px;
+  height: 127.5834px;
+  left: 382.7502px;
+  top: 0px;
+}
+
+#tileCanvas5 {
+  display: none;
+  position: absolute;
+  width: 127.5834px;
+  height: 127.5834px;
+  left: 0px;
+  top: 127.5834px;
+}
+
+#tileCanvas6 {
+  display: none;
+  position: absolute;
+  width: 127.5834px;
+  height: 127.5834px;
+  left: 127.5834px;
+  top: 127.5834px;
+
+}
+
+#tileCanvas7 {
+  display: none;
+  position: absolute;
+  width: 127.5834px;
+  height: 127.5834px;
+  left: 255.1668px;
+  top: 127.5834px;
+}
+
+#tileCanvas8 {
+  display: none;
+  position: absolute;
+  width: 127.5834px;
+  height: 127.5834px;
+  left: 382.7502px;
+  top: 127.5834px;
+}
+
+#tileCanvas9 {
+  display: none;
+  position: absolute;
+  width: 127.5834px;
+  height: 127.5834px;
+  left: 0px;
+  top: 255.1668px;
+}
+
+#tileCanvas10 {
+  display: none;
+  position: absolute;
+  width: 127.5834px;
+  height: 127.5834px;
+  left: 127.5834px;
+  top: 255.1668px;
+
+}
+
+#tileCanvas11 {
+  display: none;
+  position: absolute;
+  width: 127.5834px;
+  height: 127.5834px;
+  left: 255.1668px;
+  top: 255.1668px;
+}
+
+#tileCanvas12 {
+  display: none;
+  position: absolute;
+  width: 127.5834px;
+  height: 127.5834px;
+  left: 382.7502px;
+  top: 255.1668px;
+}
+
+#tileCanvas13 {
+  display: none;
+  position: absolute;
+  width: 127.5834px;
+  height: 127.5834px;
+  left: 0px;
+  top: 382.7502px;
+}
+
+#tileCanvas14 {
+  display: none;
+  position: absolute;
+  width: 127.5834px;
+  height: 127.5834px;
+  left: 127.5834px;
+  top: 382.7502px;
+
+}
+
+#tileCanvas15 {
+  display: none;
+  position: absolute;
+  width: 127.5834px;
+  height: 127.5834px;
+  left: 255.1668px;
+  top: 382.7502px;
+}
+
+#tileCanvas16 {
+  display: none;
+  position: absolute;
+  width: 127.5834px;
+  height: 127.5834px;
+  left: 382.7502px;
+  top: 382.7502px;
+}
+
+#coventGarden {
+  visibility: hidden;
+  height: 510.3333px;
+  width: 510.3333px;
+  position: absolute;
+  text-align: center;
+  left: 0px;
+  top: 0px;
+}
+
+.tileSelected {
+  outline-style: solid;
+  outline-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 255);
+}
+
+#covGarStart {
+  visibility: visible;
+  height: 255.1666px;
+  width: 255.1666px;
+  position: relative;
+  float: left;
+  left: 25px;
+  top: 75px;
+}
+
+#doneMessage {
+  visibility: hidden;
+  color: rgb(33, 11, 232);
+  font-size: 8rem;
+  position: absolute;
+  text-decoration: none;
+  top: 4rem;
+}
+
+#rules {
+  color: white;
+  font-size: 1.5rem;
+  font: sans-serif;
+  float: right;
+  position: relative;
+  top: 100px;
+  right: 25px;
+  width: 200px;
+}
