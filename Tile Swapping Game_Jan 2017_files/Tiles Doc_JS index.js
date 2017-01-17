@@ -4,6 +4,7 @@
 const GAME = document.getElementById('game')
 const START = document.getElementById('start')
 
+/*
 var covGarImage = new Image
 var covGar1 = document.createElement("canvas")
 covGar1.style.visibility = "hidden"
@@ -19,6 +20,25 @@ covGarImage.onload = function() {
 }
 
 covGarImage.src = src;
+*/
+
+// Github hosted image //
+var covGarImage = new Image
+var covGar1 = document.createElement("canvas")
+covGar1.style.visibility = "hidden"
+var ctx = covGar1.getContext("2d")
+var src = "https://raw.githubusercontent.com/jrleja0/tile-swapping-game-jrleja0/master/Image/covent_garden.jpg"
+
+covGarImage.crossOrigin = "Anonymous";
+
+covGarImage.onload = function() {
+    covGar1.width = covGarImage.width;
+    covGar1.height = covGarImage.height;
+    ctx.drawImage(covGarImage, 0, 0);
+}
+
+covGarImage.src = src;
+// END of Github hosted image //
 
 var covGarStart = document.getElementById("covGarStart");  // image on Start Page
 covGarStart.src = src;
